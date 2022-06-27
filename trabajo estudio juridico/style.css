@@ -1,8 +1,36 @@
+/* herramientas de la pagina */
+:colores {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+    --main-grey: #808080;
+    --main-oro: #efb810;
+    --main-pink: #ff0080;
+    --main-yellow: #ffff00;
+}
+
+/* comando general de la pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* barra de inicio */
 #barrainicio {
-
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2e5073;
+    box-shadow: 0 2px 0 rgba(16, 73, 134, 0.962);
+    z-index: 10;
+    
 }
 .inicio {
 
 }
 /* seccion de presentacion */
+
