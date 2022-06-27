@@ -27,10 +27,33 @@
     background: #2e5073;
     box-shadow: 0 2px 0 rgba(16, 73, 134, 0.962);
     z-index: 10;
+    background-image: url();
     
 }
-.inicio {
+.letrasnegritas {
+    display: flex;
+    margin-right: 2rem;
 
 }
 /* seccion de presentacion */
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(236, 11, 11);
+}
+
+#presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(174, 201, 207);
+    background-image: linear-gradient(62deg, #0b0b0b 0%, #181719 100%);
+    background-image: url();
+
+}
