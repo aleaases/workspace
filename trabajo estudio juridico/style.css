@@ -1,6 +1,6 @@
 /* herramientas de la pagina */
 :colores {
-    --main-white: #68d3ee;
+    --main-white: #ecf3f5;
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
@@ -14,6 +14,38 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+*,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+
+@media (max-width: 61.25em) {
+    html {
+    font-size: 58%;
+    }
+}
+
+
+@media (max-width: 28.75em) {
+    html {
+    font-size: 55%;
+    }
 }
 
 /* barra de inicio */
@@ -38,11 +70,11 @@
 /* seccion de presentacion */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: rgb(236, 11, 11);
+    color: rgb(41, 11, 236);
 }
 
 #presentacion {
@@ -55,5 +87,10 @@ body {
     background-color: rgb(174, 201, 207);
     background-image: linear-gradient(62deg, #0b0b0b 0%, #181719 100%);
     background-image: url(https://abogadostdf.com.ar/wp-content/uploads/2017/05/estudio-juridico-bustamante-uruguay.jpg);
+    background-size: cover;
 
 }
+
+#informacion [
+    
+]
