@@ -1,5 +1,5 @@
 /* herramientas de la pagina */
-:colores {
+:root {
     --main-white: #ecf3f5;
     --main-red: #be3144;
     --main-blue: #45567d;
@@ -48,6 +48,18 @@ html {
     }
 }
 
+
+
+/* cuerpo de la pagina */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(103, 238, 224);
+}
+
 /* barra de inicio */
 #barrainicio {
     display: flex;
@@ -59,23 +71,45 @@ html {
     background: #2e5073;
     box-shadow: 0 2px 0 rgba(16, 73, 134, 0.962);
     z-index: 10;
-    background-image: url();
     
 }
+
+@media (max-width: 28.75em) {
+.inicio {
+    justify-content: center;
+}
+
+.letrasnegritas {
+    margin: 0 1 rem;
+}
+}
+
+
 .letrasnegritas {
     display: flex;
     margin-right: 2rem;
-
+    color: #2e5073;
 }
+
+.letrasnegritas a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    color: #ecf3f5;
+}
+
+.letrasnegritas a:hover {
+    background: var(--main-blue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
 /* seccion de presentacion */
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.8rem; /* 18px */
-    font-weight: 400;
-    line-height: 1.4;
-    color: rgb(41, 11, 236);
-}
+
 
 #presentacion {
     display: flex;
@@ -88,9 +122,37 @@ body {
     background-image: linear-gradient(62deg, #0b0b0b 0%, #181719 100%);
     background-image: url(https://abogadostdf.com.ar/wp-content/uploads/2017/05/estudio-juridico-bustamante-uruguay.jpg);
     background-size: cover;
+}
+
+.estilo {
+    font-family: 'Poppins', sans-serif;
+    color: #5fe5ca;
+    font-weight: 700;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.estilo1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5fe5ca;
+    font-size: 2rem;
+}
+/* seccion de informacion */
+
+#informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.estilo2 {
 
 }
 
-#informacion [
-    
-]
+.estilo3 {
+
+}
