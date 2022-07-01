@@ -8,6 +8,8 @@
     --main-oro: #efb810;
     --main-pink: #ff0080;
     --main-yellow: #ffff00;
+    --main-plata: #BEBEBE;
+    --main-aluminio:  #B9B8B5;
 }
 
 /* comando general de la pagina */
@@ -34,21 +36,17 @@ html {
     }
 }
 
-
 @media (max-width: 61.25em) {
     html {
     font-size: 58%;
     }
 }
 
-
 @media (max-width: 28.75em) {
     html {
     font-size: 55%;
     }
 }
-
-
 
 /* cuerpo de la pagina */
 
@@ -57,7 +55,7 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.4;
-    color: rgb(103, 238, 224);
+    color: rgb(61, 66, 74);
 }
 
 /* barra de inicio */
@@ -68,8 +66,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: #2e5073;
-    box-shadow: 0 2px 0 rgba(16, 73, 134, 0.962);
+    background: #BEBEBE;
+    box-shadow: 0 2px 0 #BEBEBE;
     z-index: 10;
     
 }
@@ -84,22 +82,22 @@ body {
 }
 }
 
-
 .letrasnegritas {
     display: flex;
     margin-right: 2rem;
-    color: #2e5073;
+    color: #e91717;
 }
 
 .letrasnegritas a {
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
-    color: #ecf3f5;
+    color: #3d424a;
+    
 }
 
 .letrasnegritas a:hover {
-    background: var(--main-blue);
+    background: var(--main-grey);
 }
 
 a {
@@ -108,8 +106,6 @@ a {
 }
 
 /* seccion de presentacion */
-
-
 
 #presentacion {
     display: flex;
@@ -125,21 +121,22 @@ a {
 }
 
 .estilo {
-    font-family: 'Poppins', sans-serif;
-    color: #5fe5ca;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
     font-weight: 700;
     text-align: center;
-    font-size: 6rem;
+    font-size: 8rem;
+    
 }
 
 .estilo1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #5fe5ca;
-    font-size: 2rem;
+    font-family: 'The Nautigal', cursive;
+    color: #ffffff;
+    font-size: 8rem;
 }
 /* seccion de informacion */
 
-#informacion {
+#cuerpo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,12 +144,30 @@ a {
     width: 100%;
     height: 50vh;
     text-align: center;
+    background-color: #BEBEBE;
 }
 
-.estilo2 {
+.estilo2 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    color: #3d424a;
 
 }
 
 .estilo3 {
 
 }
+
+/* seccion de contacto */
+
+#interfas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    background-color: #BEBEBE
+}
+
